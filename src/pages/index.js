@@ -85,7 +85,7 @@ const Home = () => {
         </div>
 
         <Link to='/cases' className={classes.link}>
-          <Typography style={{ fontWeight: 'bold'}} variant='h5'>Learn More About Our Exonerations</Typography>
+          <Typography style={{ fontWeight: 'bold', textAlign: 'center'}} variant='h5'>Learn More About Our Exonerations</Typography>
         </Link>
 
         <div className={classes.border} style={{marginTop: '2%'}}></div>
