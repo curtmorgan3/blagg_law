@@ -23,6 +23,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    backgroundColor: '#3e485a',
 
     '& img': {
       width: '90vw',

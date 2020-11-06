@@ -42,8 +42,10 @@ const styles = {
 
     '& h4': {
       fontWeight: 'bold',
-      margin: '2% 0',
-      textAlign: 'center'
+      padding: '2% 0',
+      textAlign: 'center',
+      width: '100%',
+      backgroundColor: '#3e485a'
     }
   },
   bio: {
@@ -147,7 +149,7 @@ const Harris = () => {
           ))}
         </div>
 
-
+        <div className={classes.border} style={{marginTop: '2%'}}></div>
       </div>
 
       <Footer />

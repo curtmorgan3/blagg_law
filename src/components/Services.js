@@ -15,8 +15,8 @@ const styles = {
   service: {
     width: '30%',
     padding: '0 5%',
-    marginBottom: '5%',
-    marginTop: '5%',
+    marginBottom: '2%',
+    marginTop: '2%',
   },
   border: {
     width: '90vw',

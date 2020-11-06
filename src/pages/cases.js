@@ -41,8 +41,8 @@ const Cases = () => {
       </div>
 
 
+      <div className={classes.border} style={{marginTop: '2%'}}></div>
       </div>
-
       <Footer />
     </div>
   )

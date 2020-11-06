@@ -2,15 +2,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { Typography } from '@material-ui/core';
+import { commonStyles } from '../commonStyles';
 
 const styles = {
+  ...commonStyles,
   footer: {
-    width: '100%',
+    width: '90%',
     minHeight: '10vh',
     display: 'flex',
     justifyContent: 'center',
     backgroundColor: '#3E485A',
-    padding: '2% 0'
+    padding: '2% 0',
+    margin: '0 5%'
   },
   info: {
     display: 'flex',
@@ -32,6 +35,7 @@ const Footer = () => {
 
   if (isSmallDevice) {
     styles.info.flexDirection = 'column';
+    styles.info.width = '75%';
   }
   const classes = useStyles();
 

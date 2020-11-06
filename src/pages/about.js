@@ -97,6 +97,7 @@ const About = () => {
 
           </div>
         </div>
+        <div className={classes.border} style={{marginTop: '2%'}}></div>
 
       </div>
 

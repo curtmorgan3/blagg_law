@@ -61,6 +61,8 @@ const Contact = () => {
             <Typography variant='body1'>eric@blagglaw.net</Typography>
           </div>
         </div>
+        <div className={classes.border} style={{marginTop: '2%'}}></div>
+
       </div>
 
       <Footer />

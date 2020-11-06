@@ -12,10 +12,11 @@ const styles = {
     justifyContent: 'space-between',
     backgroundColor: '#3E485A',
     minHeight: '115px',
-    padding: '0 5%'
+    padding: '0 5%',
+    margin: '0 5%',
   },
   title: {
-    width: '20%',
+    width: '30%',
     display: 'flex',
     alignItems: 'center',
 

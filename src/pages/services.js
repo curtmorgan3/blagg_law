@@ -56,7 +56,7 @@ const Services = () => {
             <Typography variant='h6'>{service}</Typography>
           ))}
         </div>
-
+        <div className={classes.border} style={{marginTop: '2%'}}></div>
       </div>
 
       <Footer />
