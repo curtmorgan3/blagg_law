@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
+import { keywords, description } from '../seo.js'; 
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -67,6 +69,12 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Blagg Law ~ Chicago</title>
+        <link rel="canonical" href="https://www.blagglaw.net" />
+        <meta name='description' content={description} />
+        <meta name='keywords' content={keywords} />
+      </Helmet>
       <Navbar />
       
       <div className={classes.page}>

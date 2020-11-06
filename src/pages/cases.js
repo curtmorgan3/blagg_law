@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+import { keywords, description } from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -25,6 +27,12 @@ const Cases = () => {
   
   return (
     <div>
+      <Helmet>
+        <title>Blagg Law ~ Chicago | Cases</title>
+        <link rel="canonical" href="https://www.blagglaw.net/cases" />
+        <meta name='description' content={description} />
+        <meta name='keywords' content={keywords} />
+      </Helmet>
       <Navbar />
       
       <div className={classes.page}>
