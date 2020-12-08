@@ -44,6 +44,9 @@ const styles = {
       textDecoration: 'none',
       fontSize: '1.2rem'
     }
+    '&:hover': {
+      backgroundColor: '#CD4C4C'
+    }
   },
   mobileNav: {
     backgroundColor: '#3E485A',
