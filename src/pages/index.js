@@ -74,7 +74,6 @@ const Home = () => {
         <link rel="canonical" href="https://www.blagglaw.net" />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
-        <meta name="google-site-verification" content="HTsqFXgO5T7l3_9y-E15lqP_TigML8DItbxyhPABJoQ" />
       </Helmet>
       <Navbar />
       
