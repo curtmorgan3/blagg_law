@@ -7,7 +7,7 @@ import { commonStyles } from '../commonStyles';
 const styles = {
   ...commonStyles,
   footer: {
-    width: '95%',
+    width: '91%',
     minHeight: '10vh',
     display: 'flex',
     justifyContent: 'center',
