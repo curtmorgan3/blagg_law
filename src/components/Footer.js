@@ -7,13 +7,13 @@ import { commonStyles } from '../commonStyles';
 const styles = {
   ...commonStyles,
   footer: {
-    width: '91%',
+    width: '90.9%',
     minHeight: '10vh',
     display: 'flex',
     justifyContent: 'center',
     backgroundColor: '#3E485A',
     padding: '2% 0',
-    margin: '0 4.5%'
+    margin: '0 4.55%'
   },
   info: {
     display: 'flex',

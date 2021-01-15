@@ -17,7 +17,7 @@ export const commonStyles = {
     }
   },
   border: {
-    width: '90vw',
+    width: '90.9%',
     height: '5px',
     backgroundColor: '#ffffff'
   },
