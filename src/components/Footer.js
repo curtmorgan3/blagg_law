@@ -13,7 +13,7 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: '#3E485A',
     padding: '2% 0',
-    margin: '0 5%'
+    margin: '0 0'
   },
   info: {
     display: 'flex',
