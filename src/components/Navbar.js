@@ -95,7 +95,7 @@ const Navbar = () => {
       ? 
         <div className={classes.navbar}>
           <div className={classes.title}>
-            <Link to='/'><Typography variant='h4'>LAW OFFICE OF JENNIER BLAGG</Typography></Link>
+            <Link to='/'><Typography variant='h4'>LAW OFFICE OF JENNIFER BLAGG</Typography></Link>
           </div>
           <div className={classes.links}>
             <Link to='/about'>ABOUT</Link>
