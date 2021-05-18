@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Typography } from '@material-ui/core';
 import CaseCard from '../components/CaseCard';
 import { cases } from '../cases';
+import { pendingcases } from '../pendingcases';
 
 const Cases = () => {
   const styles = {
@@ -39,11 +40,21 @@ const Cases = () => {
       <div className={classes.border}></div>
 
       <div className={classes.header}>
-        <Typography variant='h5'>NOTABLE CASES</Typography>
+        <Typography variant='h5'>JUSTICE PREVAILS</Typography>
       </div>
 
       <div className={classes.cases}>
         {cases.map(entry => (
+          <CaseCard key={entry.name} case={entry} showLink />
+        ))}
+        </div>
+
+      <div className={classes.header}>
+        <Typography variant='h5'>JUSTICE PENDING</Typography>
+      </div>
+
+      <div className={classes.cases}>
+        {pendingcases.map(entry => (
           <CaseCard key={entry.name} case={entry} showLink />
         ))}
       </div>
@@ -53,6 +64,8 @@ const Cases = () => {
       </div>
       <Footer />
     </div>
+
+
   )
 }
 

@@ -12,6 +12,7 @@ import scaggs from '../static/case_imgs/scaggs.jpeg';
 import nickles from '../static/case_imgs/nickles.jpg';
 import thompson from '../static/case_imgs/thompson.jpg';
 import fletcher from '../static/case_imgs/fletcher.gif';
+import isaac from '../static/case_imgs/isaac.jpeg';
 
 export const cases = [
   {
@@ -41,13 +42,7 @@ export const cases = [
     bio: "Blagg obtains a rare outright reversal of Fletcher’s conviction in federal court after presenting evidence that Fletcher was framed by notorious CPD detectives. Judge orders the prosecution to release him or retry him within 180 days.",
     featured: false
   },
-  {
-    name: 'LEE HARRIS',
-    img: harris,
-    bio: "Blagg fights to secure Harris's freedom. Blagg has convinced the Cook County State's Attorney's Conviction Integrity Unit to review Harris’s case and presented the Unit convincing evidence of his innocence.",
-    featured: false,
-    link: '/harris'
-  },
+
   {
     name: 'TINO TERRELL',
     img: terrell,
@@ -67,12 +62,7 @@ export const cases = [
     bio: "Jennifer Blagg convinces the Cook County State's Attorney to drop all charges against Terrill Chambers after his case is remanded from the Illinois Supreme Court for a Franks Hearing.",
     featured: true
   },
-  {
-    name: 'JAMES BANNISTER',
-    img: bannister,
-    bio: "The State offered Bannister’s co-defendant a deal no man could refuse. After Bannister’s conviction, his co-defendant admitted that he lied when he said Bannister was present for the shooting. Justice demands Bannister be exonerated.",
-    featured: false
-  },
+ 
   {
     name: 'ANTHONY THOMAS',
     img: thomas,
@@ -91,17 +81,18 @@ export const cases = [
     bio: "Dante Servin’s trial team (Darren O'Brien, Jennifer Blagg, and Eric Bisby) obtain unprecedented directed verdict in involuntary manslaughter case securing the dismissal of all charges against Servin.",
     featured: false
   },
-  {
-    name: 'TRISTAN SCAGGS',
-    img: scaggs,
-    bio: "Jennifer Blagg files post-conviction petition alleging that police misconduct resulted in the wrongful incarceration of Tristan Scaggs. Blagg presents evidence officers engaged in a pattern of misconduct.",
-    featured: false,
-    link: '/scaggs'
-  },
+
   {
     name: 'TOMMIE NICKLES',
     img: nickles,
     bio: "Blagg Law secures Tommie Nickles’s freedom after convincing the Cook County State’s Attorney to reduce Nickles's sentence from natural life to time served. Nickles is released after spending 15 years in prison.",
+    featured: false
+  },
+  {
+    name: 'MARRQUIS ISAAC',
+    img: isaac,
+    bio: "Blagg Law secures Marrquis Isaac’s freedom after convincing the Cook County State’s Attorney to vacate his void 23-year sentence. Isaac is released after wrongfully spending 7 years in prison.",
+    bio: "Blagg Law secures Marrquis Isaac’s freedom after convincing the Cook County State’s Attorney to vacate his void 23-year sentence. Isaac is released after wrongfully spending 7 years in prison.",
     featured: false
   },
 ]
