@@ -47,8 +47,8 @@ const Footer = () => {
 
           <div>
             <Typography variant='body1'>Law Office of Jennifer Blagg</Typography>
-            <Typography variant='body1'>1333 W. Devon Ave. Suite 267</Typography>
-            <Typography variant='body1'>Chicago, IL 60660</Typography>
+            <Typography variant='body1'>1509 W. Berwyn Ave. Suite 201E</Typography>
+            <Typography variant='body1'>Chicago, IL 60640</Typography>
             <Typography variant='body1'>Phone: 773 859-0081</Typography>
             <Typography variant='body1'>Fax: 773 439-2863</Typography>
             <Typography variant='body1'>jennifer@blagglaw.net</Typography>
@@ -60,8 +60,8 @@ const Footer = () => {
 
           <div>
             <Typography variant='body1'>Law Office of Jennifer Blagg</Typography>
-            <Typography variant='body1'>1333 W. Devon Ave. Suite 267</Typography>
-            <Typography variant='body1'>Chicago, IL 60660</Typography>
+            <Typography variant='body1'>1509 W. Berwyn Ave. Suite 201E</Typography>
+            <Typography variant='body1'>Chicago, IL 60640</Typography>
             <Typography variant='body1'>Phone: (312) 218-6015</Typography>
             <Typography variant='body1'>Fax: 773 439-2863</Typography>
             <Typography variant='body1'>eric@blagglaw.net</Typography>
