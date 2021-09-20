@@ -38,6 +38,16 @@ const Cases = () => {
       
       <div className={classes.page}>
       <div className={classes.border}></div>
+      
+      <div className={classes.header}>
+        <Typography variant='h5'>JUSTICE PENDING</Typography>
+      </div>
+
+      <div className={classes.cases}>
+        {pendingcases.map(entry => (
+          <CaseCard key={entry.name} case={entry} showLink />
+        ))}
+      </div>
 
       <div className={classes.header}>
         <Typography variant='h5'>JUSTICE PREVAILS</Typography>
@@ -49,15 +59,7 @@ const Cases = () => {
         ))}
         </div>
 
-      <div className={classes.header}>
-        <Typography variant='h5'>JUSTICE PENDING</Typography>
-      </div>
 
-      <div className={classes.cases}>
-        {pendingcases.map(entry => (
-          <CaseCard key={entry.name} case={entry} showLink />
-        ))}
-      </div>
 
 
       <div className={classes.border} style={{marginTop: '2%'}}></div>
