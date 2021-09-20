@@ -113,9 +113,9 @@ const Harris = () => {
           </Typography>
 
           <Typography variant='body1' style={{margin: '2% 0'}}>
-            Feitler’s parents offered a $25,000 reward for information leading to the arrest of Feitler’s murderer. Because the police knew that Lee and he had helped them on other cases in the past, 
+            Feitler’s parents offered a $25,000 reward for information leading to the arrest of Feitler’s murderer. Because the police knew that Lee had helped them on other cases in the past, 
             they sought his assistance in solving Feitler’s murder.  Lee, who had fallen on hard times, needed the money and wanted to help his “friends.”  
-            olice reports indicate Lee Harris was a cooperating witness for months.  Lee reports that police told him their theory of the case, and he made statements comporting with their theory.  
+            Police reports indicate Lee Harris was a cooperating witness for months.  Lee reports that police told him their theory of the case, and he made statements comporting with their theory.  
             Things changed when the Cook County State’s Attorney refused to press charges against their target suspects.  
             After that, the lead detective, Richard Zuley, had to solve the murder and turned on Lee, using his own words against him.   
             Richard Zuley has a notorious history of coercing “confessions.”  
@@ -126,7 +126,7 @@ const Harris = () => {
 
           <Typography variant='body1' style={{margin: '2% 0'}}>
             Jennifer Blagg’s investigations have revealed that the Harris case contains almost every factor typically seen in a wrongful conviction – a heater case that police had to solve, 
-            coercive police conduct by Chicago Police Officers led by Detective Zuley, a lying jailhouse snitch, and a suspect possible identification.
+            coercive police conduct by Chicago Police Officers led by Detective Zuley, a lying jailhouse snitch, and a suspect identification.
           </Typography>
 
           <div><Typography variant='span' style={{margin: '2% 0'}}>
