@@ -115,13 +115,12 @@ const Harris = () => {
           <Typography variant='body1' style={{margin: '2% 0'}}>
             Feitler’s parents offered a $25,000 reward for information leading to the arrest of Feitler’s murderer. Because the police knew that Lee had helped them on other cases in the past, 
             they sought his assistance in solving Feitler’s murder.  Lee, who had fallen on hard times, needed the money and wanted to help his “friends.”  
-            Police reports indicate Lee Harris was a cooperating witness for months.  Lee reports that police told him their theory of the case, and he made statements comporting with their theory.  
+            Police reports indicate Lee Harris was a cooperating witness for months.  The prosecution paid for his housing, gave him meals, and Harris had around-the-clock police protection. Lee reports that police told him their theory of the case, and he made statements comporting with their theory.  
             Things changed when the Cook County State’s Attorney refused to press charges against their target suspects.  
             After that, the lead detective, Richard Zuley, had to solve the murder and turned on Lee, using his own words against him.   
-            Richard Zuley has a notorious history of coercing “confessions.”  
-            Zuley’s role as a Guantanamo interrogator, placed there after he was called into duty as a lieutenant in the Navy Reserve, received wide attention in a two-part series by Spencer Ackerman in a British newspaper, The Guardian, in 2015. 
-            Ackerman interviewed several former military investigators and culled details from the Senate report as well as one of his victim’s memoirs, Guantanamo Diary, to paint a portrait of 
-            Zuley as a brutal interrogator that obtained ineffective results.
+            Detective Richard Zuley has a notorious history of wrongful convictions and coercing false “confessions.”   
+            Most notoriously, Zuley crafted the interrogation plan for Mohamedou Slahi at Guantanamo Bay.  Zuley’s role in the interrogation and torture of  Slahi received wide attention in a two-part series by Spencer Ackerman in a British newspaper, The Guardian, in 2015. Later, Slahi wrote about Zuley in his book, Guantánamo Diary.  He was known to Slahi as "Captain Collins," and his role in crafting the interrogation tactics used on Shali is profiled in the award winning movie based the Guantánamo Diary, "The Mauritanian."  
+            
           </Typography>
 
           <Typography variant='body1' style={{margin: '2% 0'}}>
