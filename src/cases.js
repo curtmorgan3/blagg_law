@@ -13,6 +13,8 @@ import nickles from '../static/case_imgs/nickles.jpg';
 import thompson from '../static/case_imgs/thompson.jpg';
 import fletcher from '../static/case_imgs/fletcher.gif';
 import isaac from '../static/case_imgs/isaac.jpeg';
+import gecht from '../static/case_imgs/getch.jpeg';
+import jackson from '../static/case_imgs/jackson.jpeg';
 
 export const cases = [
   {
@@ -33,7 +35,7 @@ export const cases = [
     name: 'JOHN VELEZ',
     img: velez,
     bio: "Jennifer Blagg convinces the Cook County State's Attorney to reverse John Velez's conviction and drop all charges.  Velez is released after spending 17 years in prison.",
-    featured: false,
+    featured: true,
     link: '/velez'
   },
   {
@@ -42,12 +44,26 @@ export const cases = [
     bio: "Blagg obtains a rare outright reversal of Fletcher’s conviction in federal court after presenting evidence that Fletcher was framed by notorious CPD detectives. Judge orders the prosecution to release him or retry him within 180 days.",
     featured: false
   },
+    
+  {
+    name: 'DAVID GECHT',
+    img: gecht,
+    bio: "Blagg, partnering with the Exoneration Project, secures reversal of Gecht’s conviction after presenting evidence that he was framed by CPD detective, Reynaldo Guevara.  The Cook County State’s Attorney’s Office subsequently dropped all charges.",
+    featured: false
+  },
+    
+  {
+    name: 'JEREMY JACKSON',
+    img: jackson,
+    bio:"Judge Maldonado grants Jeremy Jackson a new trial after Blagg presents evidence to show that sixteen-year-old Jackson falsely confessed to a crime that he did not commit. Jackson was released from prison in 2022 after all charges against him were dropped.",
+    featured: true
+  },
 
   {
     name: 'TINO TERRELL',
     img: terrell,
     bio: 'Jennifer Blagg secures the release of Tino Terrell after convincing the First District Appellate Court to overturn his conviction. The court finds that Tino Terrell was not guilty beyond a reasonable doubt.',
-    featured: true,
+    featured: false,
     link: '/terrell'
   },
   {
@@ -60,7 +76,7 @@ export const cases = [
     name: 'TERRELL CHAMBERS',
     img: chambers,
     bio: "Jennifer Blagg convinces the Cook County State's Attorney to drop all charges against Terrill Chambers after his case is remanded from the Illinois Supreme Court for a Franks Hearing.",
-    featured: true
+    featured: false
   },
  
   {
@@ -91,7 +107,6 @@ export const cases = [
   {
     name: 'MARRQUIS ISAAC',
     img: isaac,
-    bio: "Blagg Law secures Marrquis Isaac’s freedom after convincing the Cook County State’s Attorney to vacate his void 23-year sentence. Isaac is released after wrongfully spending 7 years in prison.",
     bio: "Blagg Law secures Marrquis Isaac’s freedom after convincing the Cook County State’s Attorney to vacate his void 23-year sentence. Isaac is released after wrongfully spending 7 years in prison.",
     featured: false
   },

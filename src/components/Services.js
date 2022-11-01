@@ -14,8 +14,8 @@ const styles = {
 
   service: {
     width: '30%',
-    padding: '0 5%',
-    marginBottom: '2%',
+    padding: '0 1%',
+    marginBottom: '0%',
     marginTop: '2%',
   },
   border: {
@@ -76,12 +76,10 @@ const Services = () => {
       </div>
 
       <div className={classes.service}>
-        <Typography variant='h6' style={{ fontWeight: 'bold' }}>DUI & Traffic</Typography>
+        <Typography variant='h6' style={{ fontWeight: 'bold' }}></Typography>
 
         <Typography variant='body1'>
-          Charges for driving under the infulence can be very scary. Each year, many DUI defendants face lossing their licenses, 
-          extensive fines, and even jail time. The Office of Jennifer Blagg will fight vigorously to protect your license and 
-          your liberty. Contact the Law Office of Jennifer Blagg for a free consolation and find out how we can help you.   
+          
         </Typography>
       </div>
 
