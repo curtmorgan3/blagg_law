@@ -108,8 +108,7 @@ const Harris = () => {
 
           <Typography variant='body1' style={{margin: '2% 0'}}>
             In 1989 Dana Feitler, was shot and killed in the well-to-do Gold Coast neighborhood in Chicago. 
-            She was shot in the back of the head after removing $400 from an ATM. The case became a media sensation, not only because Feitler was a young, wealthy, white girl, 
-            but also because ATMs were new in Chicago. The case made national headlines and caused debates over the safety of the new machines. 
+            She was shot in the back of the head after removing $400 from an ATM. The case became a media sensation for a variety of reasons, including the fact that ATMs were new in Chicago.
           </Typography>
 
           <Typography variant='body1' style={{margin: '2% 0'}}>
