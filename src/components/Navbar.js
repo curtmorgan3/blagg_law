@@ -107,7 +107,7 @@ const Navbar = () => {
 
       : 
         <div className={classes.mobileNav}>
-          <Typography variant='body1'>LAW OFFICE OF JENNIER BLAGG</Typography>
+          <Typography variant='body1'>LAW OFFICE OF JENNIFER BLAGG</Typography>
           <MenuIcon style={{color: '#ffffff'}} onClick={() => toggleDrawer(true)} />
           <Drawer anchor='top' open={isOpen} onClose={() => toggleDrawer(false)}>
           <CloseIcon onClick={() => toggleDrawer(false)} style={{backgroundColor: '#3E485A', color: '#ffffff', width: '100%'}} />
