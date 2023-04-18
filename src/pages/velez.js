@@ -24,7 +24,7 @@ const articles = [
 const styles = {
   ...commonStyles, 
   hero: {
-    width: '90vw',
+    width: '90.9vw',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

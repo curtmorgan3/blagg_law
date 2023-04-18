@@ -21,7 +21,7 @@ import { cases } from '../cases';
 const styles = {
   ...commonStyles, 
   hero: {
-    width: '90vw',
+    width: '90.9vw',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -40,7 +40,7 @@ const styles = {
   exonerations: {
     display: 'flex',
     flexWrap: 'wrap',
-    width: '90vw',
+    width: '90.9vw',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingTop: '5%'
