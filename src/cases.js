@@ -14,7 +14,10 @@ import thompson from '../static/case_imgs/thompson.jpg';
 import fletcher from '../static/case_imgs/fletcher.gif';
 import isaac from '../static/case_imgs/isaac.jpeg';
 import gecht from '../static/case_imgs/getch.jpeg';
+import kwil from '../static/case_imgs/kwil.jpeg';
 import jackson from '../static/case_imgs/jackson.jpeg';
+import raymond from '../static/case_imgs/raymond.jpeg';
+import croft from '../static/case_imgs/croft.jpeg';
 
 export const cases = [
   {
@@ -30,12 +33,19 @@ export const cases = [
     bio: 'Jennifer Blagg is part of a team of attorneys that secures the release of the wrongfully convicted Dixmoor Five. Her client, Robert Taylor, and four others were exonerated using post conviction DNA testing.',
     featured: true,
     link: '/taylor'
+  },  
+  {
+    name: 'LEE HARRIS',
+    img: harris,
+    bio: "Blagg exonerates Lee Harris by showing that Detective Richard Zuley engaged in systematic misconduct and that the prosecution withheld favorable evidence from the defense.",
+    featured: true,
+    link: '/harris'
   },
   {
     name: 'JOHN VELEZ',
     img: velez,
     bio: "Jennifer Blagg convinces the Cook County State's Attorney to reverse John Velez's conviction and drop all charges.  Velez is released after spending 17 years in prison.",
-    featured: true,
+    featured: false,
     link: '/velez'
   },
   {
@@ -44,11 +54,17 @@ export const cases = [
     bio: "Blagg obtains a rare outright reversal of Fletcher’s conviction in federal court after presenting evidence that Fletcher was framed by notorious CPD detectives. Judge orders the prosecution to release him or retry him within 180 days.",
     featured: false
   },
-    
   {
     name: 'DAVID GECHT',
     img: gecht,
     bio: "Blagg, partnering with the Exoneration Project, secures reversal of Gecht’s conviction after presenting evidence that he was framed by CPD detective, Reynaldo Guevara.  The Cook County State’s Attorney’s Office subsequently dropped all charges.",
+    featured: false
+  },
+    
+ {
+    name: 'RICHARD KWIL',
+    img: kwil,
+    bio: "Recognizing CPD Detective Reynaldo Guevara’s pattern and practice of coercing false confessions, the CCSAO agrees to vacate Kwil’s convictions.  Kwil, who spent over 23 years wrongfully imprisoned, joins his codefendant David Gecht in freedom.",
     featured: false
   },
     
@@ -58,7 +74,12 @@ export const cases = [
     bio:"Judge Maldonado grants Jeremy Jackson a new trial after Blagg presents evidence to show that sixteen-year-old Jackson falsely confessed to a crime that he did not commit. Jackson was released from prison in 2022 after all charges against him were dropped.",
     featured: true
   },
-
+  {
+    name: 'RAYMOND LEE',
+    img: raymond,
+    bio: "Blagg, partnering with the Exoneration Project, secures the release of Raymond Lee after presenting evidence that Raymond was coerced into giving a false confession. Raymond was released after his sentence was reduced to time served.",
+    featured: false
+  },
   {
     name: 'TINO TERRELL',
     img: terrell,
@@ -99,9 +120,9 @@ export const cases = [
   },
 
   {
-    name: 'TOMMIE NICKLES',
-    img: nickles,
-    bio: "Blagg Law secures Tommie Nickles’s freedom after convincing the Cook County State’s Attorney to reduce Nickles's sentence from natural life to time served. Nickles is released after spending 15 years in prison.",
+    name: 'CURTIS CROFT',
+    img: croft,
+    bio: "Curtis Croft, who was serving a life sentenced, was given a sentence of time served based upon Blagg Law’s investigation into his actual innocence.",
     featured: false
   },
   {

@@ -14,6 +14,7 @@ const styles = {
     minHeight: '115px',
     padding: '0 5%',
     margin: '0 4.55%',
+
   },
   title: {
     width: '30%',

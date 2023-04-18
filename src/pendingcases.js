@@ -24,13 +24,6 @@ export const pendingcases = [
     link:'/bannister'
   },
 
-  {
-    name: 'LEE HARRIS',
-    img: harris,
-    bio: "Blagg presents evidence that Detective Richard Zuley engaged in systematic misconduct and that the prosecution withheld that a witness who implicated Harris was previously an informant.",
-    featured: false,
-    link: '/harris'
-  },
 
   {
     name: 'TRISTAN SCAGGS',
@@ -43,8 +36,9 @@ export const pendingcases = [
  {
     name: 'ALEXANDER VILLA',
     img: villa,
-    bio: " Villa was convicted of killing off-duty police officer. Blagg dismantles CPD’s case against Villa by showing that police hid evidence from Villa  She also proves that CPD’s practice of keeping “street files” (files that the police did not turn over to the prosecution) was alive and well.",
-    featured: false,
+    bio: " Villa was convicted of killing off-duty police officer. Blagg dismantles CPD’s case against Villa by showing that police hid evidence that established Villa's innocence.",
+    featured:  false,
+    link: '/villa'
 
   },
 ]

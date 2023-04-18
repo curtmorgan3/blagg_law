@@ -2,6 +2,7 @@ import React from 'react';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import heroImage from '../../static/case_page_imgs/harris_page.jpeg';
 
 import { commonStyles } from '../commonStyles';
 
@@ -10,6 +11,14 @@ import { makeStyles } from '@material-ui/styles';
 import { Typography } from '@material-ui/core';
 
 const articles = [
+  {
+    title: 'Chicago man released from prison after murder conviction vacated after serving nearly 30 years',
+    link: 'https://abc7chicago.com/chicago-murder-prisoner-release-lee-harris-dana-feitler/12964803/'
+  },
+  {
+    title: 'Man wrongfully convicted of 1989 Gold Coast murder is freed',
+    link: 'https://www.fox32chicago.com/news/man-wrongfully-convicted-1989-gold-coast-murder-freed-thursday'
+  },
   {
     title: "Read about Lee's case, and how his friend, Robert Chattler's, kept a promise to help Lee prove his innocence in The Marshall Project's original series Cellmates",
     link: 'https://www.themarshallproject.org/2018/11/02/cellmates'
@@ -89,12 +98,7 @@ const Harris = () => {
       <div className={classes.page}>
 
         <div className={classes.hero}>
-          <iframe src='https://w3.mp.lura.live/player/prod/v3/anvload.html?key=eyJtIjoiTElOIiwidiI6IjUwNTYyMjQiLCJhbnZhY2siOiJ2THJvQkE5WkJHM0p3VHZhT2xpYmJ0b1BiNkw0anFKbCIsInNoYXJlTGluayI6Imh0dHBzOi8vd2dudHYuY29tL25ld3MvbWFuLWNvbnZpY3RlZC1vZi1nb2xkLWNvYXN0LWF0bS1tdXJkZXItc2F5cy1oZS13YXMtZnJhbWVkLyIsInBsdWdpbnMiOnsiY29tc2NvcmUiOnsiY2xpZW50SWQiOiI2MDM2NDM5IiwiYzMiOiJ3Z250di5jb20iLCJzY3JpcHQiOiIvL3czLmNkbi5hbnZhdG8ubmV0L3BsYXllci9wcm9kL3YzL3BsdWdpbnMvY29tc2NvcmUvY29tc2NvcmVwbHVnaW4ubWluLmpzIiwidXNlRGVyaXZlZE1ldGFkYXRhIjp0cnVlLCJtYXBwaW5nIjp7InZpZGVvIjp7ImMzIjoid2dudHYuY29tIiwibnNfc3Rfc3QiOiJ3Z24iLCJuc19zdF9wdSI6Ik5leHN0YXIiLCJuc19zdF9nZSI6Ik5ld3MiLCJjc191Y2ZyIjoiIn0sImFkIjp7ImMzIjoid2dudHYuY29tIiwibnNfc3Rfc3QiOiJ3Z24iLCJuc19zdF9wdSI6Ik5leHN0YXIiLCJuc19zdF9nZSI6Ik5ld3MiLCJjc191Y2ZyIjoiIn19fSwiZGZwIjp7ImNsaWVudFNpZGUiOnsiYWRUYWdVcmwiOiJodHRwczovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvYWRzP3N6PTF4MTAwMCZpdT0vNTY3OC9ueC53Z250di9uZXdzJmltcGw9cyZnZGZwX3JlcT0xJmVudj12cCZvdXRwdXQ9dm1hcCZ1bnZpZXdlZF9wb3NpdGlvbl9zdGFydD0xJmFkX3J1bGU9MSZkZXNjcmlwdGlvbl91cmw9aHR0cHM6Ly93Z250di5jb20vbmV3cy9tYW4tY29udmljdGVkLW9mLWdvbGQtY29hc3QtYXRtLW11cmRlci1zYXlzLWhlLXdhcy1mcmFtZWQvJnZjb25wPTImY3VzdF9wYXJhbXM9dmlkJTNENTA1NjIyNCUyNmNtc2lkJTNEMTE3NzAzNiUyNnBpZCUzRDExNzcwMzYlMjZ2aWRjYXQlM0QlMkZuZXdzJTI2Ym9iX2NrJTNEJTVCYm9iX2NrX3ZhbCU1RCUyNmRfY29kZSUzRG5hMDAzJTI2cGxheWVyd2lkdGglM0Q4NzYlMjZwbGF5ZXJoZWlnaHQlM0Q0OTMifSwibGlicmFyeVJlcXVlc3RlZCI6dHJ1ZX0sIm5pZWxzZW4iOnsiYXBpZCI6IlBEMkVDNzA3Mi0yNzMwLTRDMzItQjJBMy1DOUFFRTc3ODI0RjQiLCJzZmNvZGUiOiJkY3IiLCJ0eXBlIjoiZGNyIiwiYXBuIjoiQW52YXRvIiwiZW52aXJvbm1lbnQiOiJwcm9kdWN0aW9uIiwidXNlRGVyaXZlZE1ldGFkYXRhIjp0cnVlLCJtYXBwaW5nIjp7ImFkbG9hZHR5cGUiOjIsImFkTW9kZWwiOjJ9LCJvcHRPdXQiOmZhbHNlfSwic2VnbWVudEN1c3RvbSI6eyJzY3JpcHQiOiJodHRwczovL3NlZ21lbnQucHNnLm5leHN0YXJkaWdpdGFsLm5ldC9hbnZhdG8uanMiLCJ3cml0ZUtleSI6Ill4bmkzSTE3T0trOUtUVWYxUm1tc3lZZXF4RmtFVG8yIn0sImdvb2dsZUFuYWx5dGljcyI6eyJ0cmFja2luZ0lkIjoiVUEtMzQxMzM4ODQtMTMiLCJldmVudHMiOnsiQURfU1RBUlRFRCI6eyJhbGlhcyI6IlZpZGVvLUFkIiwiY2F0ZWdvcnkiOiJWaWRlbyIsImxhYmVsIjoiW1tUSVRMRV1dIn0sIlZJREVPX1NUQVJURUQiOnsiYWxpYXMiOiJWaWRlby1QbGF5IiwiY2F0ZWdvcnkiOiJWaWRlbyIsImxhYmVsIjoiW1tUSVRMRV1dIn0sIlZJREVPX0ZJUlNUX1FVQVJUSUxFIjp7ImFsaWFzIjoiVmlkZW8tMjUlIiwiY2F0ZWdvcnkiOiJWaWRlbyIsImxhYmVsIjoiW1tUSVRMRV1dIn0sIlZJREVPX01JRF9QT0lOVCI6eyJhbGlhcyI6IlZpZGVvLTUwJSIsImNhdGVnb3J5IjoiVmlkZW8iLCJsYWJlbCI6IltbVElUTEVdXSJ9LCJWSURFT19USElSRF9RVUFSVElMRSI6eyJhbGlhcyI6IlZpZGVvLTc1JSIsImNhdGVnb3J5IjoiVmlkZW8iLCJsYWJlbCI6IltbVElUTEVdXSJ9LCJWSURFT19DT01QTEVURUQiOnsiYWxpYXMiOiJWaWRlby0xMDAlIiwiY2F0ZWdvcnkiOiJWaWRlbyIsImxhYmVsIjoiW1tUSVRMRV1dIn0sIlVTRVJfUEFVU0UiOnsiYWxpYXMiOiJQYXVzZSIsImNhdGVnb3J5IjoiVmlkZW8iLCJsYWJlbCI6IltbVElUTEVdXSJ9LCJVU0VSX1JFU1VNRSI6eyJhbGlhcyI6IlJlc3VtZSIsImNhdGVnb3J5IjoiVmlkZW8iLCJsYWJlbCI6IltbVElUTEVdXSJ9fX0sImhlYWx0aEFuYWx5dGljcyI6e319LCJodG1sNSI6dHJ1ZSwidG9rZW4iOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKMmFXUWlPaUkxTURVMk1qSTBJaXdpYVhOeklqb2lka3h5YjBKQk9WcENSek5LZDFSMllVOXNhV0ppZEc5UVlqWk1OR3B4U213aUxDSmxlSEFpT2pFMk16SXhOamc1TWpSOS5mLTBrVnZhOXY3ZUp4Q0VhcFB2ZHAwY1J4ZnFObDZ6TU9PQTZmUTU3QURZIn0%3D'
-            frameborder='0'
-            title='video'
-            height={isSmallDevice ? '100%' : '500px'}
-            width={isSmallDevice ? '100%' : '800px'}
-          />
+          <img src={heroImage} />
 
           <Typography variant='h4'>Lee Harris</Typography>
         </div>
@@ -128,9 +132,8 @@ const Harris = () => {
           </Typography>
 
           <div><Typography variant='span' style={{margin: '2% 0'}}>
-            Richard Zuley put the case against Harris together with duct tape. It’s unraveling now. Due to the efforts of Lee's former cellmate, and life-long friend, 
-            Robert Chattler over 66,000 people have signed a petition demanding Lee's release from prison. Join the cause 
-          </Typography><a href='https://www.change.org/p/new-trial-for-an-innocent-man'> #FreeLee.</a></div>
+            Richard Zuley put the case against Harris together with duct tape. Now it has unraveled. After over 30 years in prison, Jennifer convinces the Cook County State's Attorney's Office to vacate Lee's conviction and drop all charges against him. Lee is pictured above eating a cheeseburger, his first meal after being released from prison.
+          </Typography></div>
         </div>
 
         <div className={classes.header}>

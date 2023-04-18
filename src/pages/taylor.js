@@ -12,8 +12,8 @@ import { Typography } from '@material-ui/core';
 
 const articles = [
   {
-    title: "Law School's Exoneration Project Helps Free Wrongly Convicted Man",
-    link: 'http://news.gnom.es/news/law-school%E2%80%99s-exoneration-project-helps-free-wrongly-convicted-man'
+    title: "60 Minutes - Chicago: The false confession capital",
+    link: 'https://www.youtube.com/watch?v=YSo_9Xo_78E'
   },
   {
     title: "$40M wrongful conviction settlement: 'The money is almost beside the point'",
