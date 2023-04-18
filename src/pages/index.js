@@ -28,7 +28,7 @@ const styles = {
     backgroundColor: '#3e485a',
 
     '& img': {
-      width: '90vw',
+      width: '90.9vw',
     },
 
     '& h4': {
