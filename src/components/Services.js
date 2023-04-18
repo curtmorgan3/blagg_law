@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/styles';
 const styles = {
   services: {
     display: 'flex',
-    width: '90vw',
+    width: '90.9vw',
     flexWrap: 'wrap',
     justifyContent: 'center',
   },
@@ -19,7 +19,7 @@ const styles = {
     marginTop: '2%',
   },
   border: {
-    width: '90vw',
+    width: '90.9vw',
     height: '5px',
     backgroundColor: '#ffffff'
   }
