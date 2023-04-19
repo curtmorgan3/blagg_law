@@ -86,7 +86,7 @@ const Home = () => {
         <div className={classes.hero}>
           <img src={heroImage} />
 
-          <Typography variant='h4'>Zealou Criminal Defense</Typography>
+          <Typography variant='h4'>Zealous Criminal Defense</Typography>
         </div>
 
         <Services />
