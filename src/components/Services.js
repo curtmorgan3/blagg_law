@@ -29,8 +29,9 @@ const Services = () => {
   const isSmallDevice = useMediaQuery('@media only screen and (min-device-width: 250px) and (max-device-width: 812px)');
 
   if (isSmallDevice) {
-    styles.service.width = '80%'
-
+    styles.service.width = '80%';
+    styles.services.width = '100vw';
+    styles.border.width = '100vw';
   }
 
   const useStyles = makeStyles(styles);
