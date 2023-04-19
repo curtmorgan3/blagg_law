@@ -62,7 +62,7 @@ const Cases = () => {
 
 
 
-      <div className={classes.border} style={{marginTop: '2%'}}></div>
+      <div className={classes.border} style={{marginTop: '1%'}}></div>
       </div>
       <Footer />
     </div>

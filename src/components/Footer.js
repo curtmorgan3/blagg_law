@@ -42,7 +42,7 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <div className={classes.info}>
-        <div style={{marginBottom: '1%'}}>
+        <div style={{marginBottom: '3%'}}>
           <Typography>JENNIFER BLAGG</Typography>
 
           <div>

@@ -13,7 +13,8 @@ const styles = {
     width: '280px',
     height: '490px',
     marginBottom: '5%',
-    boxShadow: '0.2vw 0.3vw 0.5vw 0.4vw rgba(0, 0, 0, 0.3)'
+    boxShadow: '0.2vw 0.3vw 0.5vw 0.4vw rgba(0, 0, 0, 0.3)',
+
   },
   name: {
     color: '#000000 !important',

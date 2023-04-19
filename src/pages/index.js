@@ -59,6 +59,8 @@ const Home = () => {
   const isSmallDevice = useMediaQuery('@media only screen and (min-device-width: 250px) and (max-device-width: 812px)');
   if (isSmallDevice) {
     styles.hero['& h4'].fontSize = '1.2rem';
+    styles.hero.width = '100vw';
+    styles.hero['& img'].width = '100vw';
     styles.exonerations.justifyContent = 'center';
   }
 
