@@ -122,7 +122,7 @@ export const cases = [
   {
     name: 'CURTIS CROFT',
     img: croft,
-    bio: "Curtis Croft, who was serving a life sentenced, was given a sentence of time served based upon Blagg Law’s investigation into his actual innocence.",
+    bio: "Curtis Croft, who was serving a life sentence, was given a sentence of time served based upon Blagg Law’s investigation into his actual innocence.",
     featured: false
   },
   {
