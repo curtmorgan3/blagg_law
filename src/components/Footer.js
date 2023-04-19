@@ -37,6 +37,7 @@ const Footer = () => {
     styles.info.flexDirection = 'column';
     styles.info.width = '75%';
     styles.footer.width = '100%';
+    styles.footer.margin: '0 0';
   }
   const classes = useStyles();
 
