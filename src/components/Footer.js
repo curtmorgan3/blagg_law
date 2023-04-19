@@ -36,6 +36,7 @@ const Footer = () => {
   if (isSmallDevice) {
     styles.info.flexDirection = 'column';
     styles.info.width = '75%';
+    styles.foorer.width = '100%';
   }
   const classes = useStyles();
 

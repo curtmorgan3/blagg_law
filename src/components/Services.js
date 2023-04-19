@@ -30,6 +30,8 @@ const Services = () => {
 
   if (isSmallDevice) {
     styles.service.width = '80%'
+    styles.services.width = '100vw'
+    styles.border.width = '100vw'
   }
 
   const useStyles = makeStyles(styles);
