@@ -20,7 +20,7 @@ export const commonStyles = {
     width: '90.9%',
     height: '5px',
     backgroundColor: '#ffffff'
-    borderRadius: '100px',
+ 
   },
   header: {
     height: '60px',
