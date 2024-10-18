@@ -3,7 +3,6 @@ import thompson from '../static/case_imgs/thompson.jpg';
 import raymond from '../static/case_imgs/raymond.jpeg';
 import croft from '../static/case_imgs/croft.jpeg';
 import whitten from '../static/case_imgs/whitten.jpeg';
-import coleman from '../static/case_imgs/croft.jpeg';
 import morales from '../static/case_imgs/morales.jpeg';
 import wilson from '../static/case_imgs/wilson.jpeg';
 import dixon from '../static/case_imgs/dixon.jpeg';
