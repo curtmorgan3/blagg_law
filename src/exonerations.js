@@ -47,7 +47,7 @@ export const exonerations = [
     {
     name: 'LEE HARRIS',
     img: harris,
-    bio: "Blagg exposed the misconduct of Detective Richard Zuley, leading to the exoneration of Harris. Blagg's investigation revealed that the prosecution withheld evidence that could have proven Harris' innocence.",
+    bio: "Blagg exposed the misconduct of Detective Richard Zuley, leading to the exoneration of Harris. Blagg's investigation revealed that the CPD withheld evidence that could have proven Harris' innocence.",
     featured: true,
     link: '/harris'
   },
