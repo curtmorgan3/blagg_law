@@ -1,4 +1,4 @@
-import mcintosh from '../static/case_imgs/norman.jpeg';
+import mcintosh from '../static/case_imgs/norman.png';
 import taylor from '../static/case_imgs/taylor.jpg';
 import terrell from '../static/case_imgs/terrell.jpeg';
 import chambers from '../static/case_imgs/chambers.jpg';
