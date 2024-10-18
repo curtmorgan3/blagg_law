@@ -75,7 +75,7 @@ export const cases = [
     featured: false
   },
   {
-    name: 'MARK COLEMNA',
+    name: 'MARK COLEMAN',
     img: coleman,
     bio: "After presenting evidence of Coleman's innocence, Blagg secures the release of Mark Coleman by brokering a deal that reduced his life sentence to time served.",
     featured: false
