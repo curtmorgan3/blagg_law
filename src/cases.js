@@ -9,6 +9,7 @@ import wilson from '../static/case_imgs/wilson.jpeg';
 import dixon from '../static/case_imgs/dixon.jpeg';
 import ttaylor from '../static/case_imgs/terence.png';
 import esau from '../static/case_imgs/esau.png';
+import coleman from '../static/case_imgs/coleman.png';
 
 export const cases = [
   {
@@ -71,6 +72,12 @@ export const cases = [
     name: 'ESAU ESCOBAR',
     img: esau,
     bio: "Blagg argued Escobar's sentence violated the proportionate penalties clause of the constitution.  Escobar was resentenced to time served by a judge who had been haunted by the legislature's mandate that Escobar be sentenced to a de facto file sentence.",
+    featured: false
+  },
+  {
+    name: 'MARK COLEMNA',
+    img: coleman,
+    bio: "After presenting evidence of Coleman's innocence, Blagg secures the release of Mark Coleman by brokering a deal that reduced his life sentence to time served.",
     featured: false
   },
 ]
