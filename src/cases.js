@@ -1,134 +1,76 @@
-import mcintosh from '../static/case_imgs/norman.jpeg';
-import taylor from '../static/case_imgs/taylor.jpg';
-import terrell from '../static/case_imgs/terrell.jpeg';
-import chambers from '../static/case_imgs/chambers.jpg';
-import harris from '../static/case_imgs/harris.jpeg';
-import velez from '../static/case_imgs/velez.jpg';
-import moore from '../static/case_imgs/moore.jpeg';
-import bannister from '../static/case_imgs/bannister.gif';
 import thomas from '../static/case_imgs/thomas.jpeg';
-import servin from '../static/case_imgs/servin.jpg';
-import scaggs from '../static/case_imgs/scaggs.jpeg';
-import nickles from '../static/case_imgs/nickles.jpg';
 import thompson from '../static/case_imgs/thompson.jpg';
-import fletcher from '../static/case_imgs/fletcher.gif';
-import isaac from '../static/case_imgs/isaac.jpeg';
-import gecht from '../static/case_imgs/getch.jpeg';
-import kwil from '../static/case_imgs/kwil.jpeg';
-import jackson from '../static/case_imgs/jackson.jpeg';
 import raymond from '../static/case_imgs/raymond.jpeg';
 import croft from '../static/case_imgs/croft.jpeg';
+import whitten from '../static/case_imgs/whitten.jpeg';
+import coleman from '../static/case_imgs/croft.jpeg';
+import morales from '../static/case_imgs/morales.jpeg';
+import wilson from '../static/case_imgs/wilson.jpeg';
+import dixon from '../static/case_imgs/dixon.jpeg';
+import ttaylor from '../static/case_imgs/terence.png';
+import esau from '../static/case_imgs/esau.png';
 
 export const cases = [
   {
-    name: 'NORMAN MCINTOSH',
-    img: mcintosh,
-    bio: "After five years of investigation, Jennifer Blagg persuades the Cook County State's Attorney to exonerate Norman McIntosh of murder. McIntosh is released from prison after fifteen years’ wrongfully convicted.",
-    featured: true,
-    link: '/mcintosh'
-  },
-  {
-    name: 'ROBERT TAYLOR',
-    img: taylor,
-    bio: 'Jennifer Blagg is part of a team of attorneys that secures the release of the wrongfully convicted Dixmoor Five. Her client, Robert Taylor, and four others were exonerated using post conviction DNA testing.',
-    featured: true,
-    link: '/taylor'
-  },  
-  {
-    name: 'LEE HARRIS',
-    img: harris,
-    bio: "Blagg exonerates Lee Harris by showing that Detective Richard Zuley engaged in systematic misconduct and that the prosecution withheld favorable evidence from the defense.",
-    featured: true,
-    link: '/harris'
-  },
-  {
-    name: 'JOHN VELEZ',
-    img: velez,
-    bio: "Jennifer Blagg convinces the Cook County State's Attorney to reverse John Velez's conviction and drop all charges.  Velez is released after spending 17 years in prison.",
-    featured: false,
-    link: '/velez'
-  },
-  {
-    name: 'JAMES FLETCHER',
-    img: fletcher,
-    bio: "Blagg obtains a rare outright reversal of Fletcher’s conviction in federal court after presenting evidence that Fletcher was framed by notorious CPD detectives. Judge orders the prosecution to release him or retry him within 180 days.",
-    featured: false
-  },
-  {
-    name: 'DAVID GECHT',
-    img: gecht,
-    bio: "Blagg, partnering with the Exoneration Project, secures reversal of Gecht’s conviction after presenting evidence that he was framed by CPD detective, Reynaldo Guevara.  The Cook County State’s Attorney’s Office subsequently dropped all charges.",
-    featured: false
-  },
-    
- {
-    name: 'RICHARD KWIL',
-    img: kwil,
-    bio: "Recognizing CPD Detective Reynaldo Guevara’s pattern and practice of coercing false confessions, the CCSAO agrees to vacate Kwil’s convictions.  Kwil, who spent over 23 years wrongfully imprisoned, joins his codefendant David Gecht in freedom.",
-    featured: false
-  },
-    
-  {
-    name: 'JEREMY JACKSON',
-    img: jackson,
-    bio:"Judge Maldonado grants Jeremy Jackson a new trial after Blagg presents evidence to show that sixteen-year-old Jackson falsely confessed to a crime that he did not commit. Jackson was released from prison in 2022 after all charges against him were dropped.",
-    featured: true
-  },
-  {
     name: 'RAYMOND LEE',
     img: raymond,
-    bio: "Blagg, partnering with the Exoneration Project, secures the release of Raymond Lee after presenting evidence that Raymond was coerced into giving a false confession. Raymond was released after his sentence was reduced to time served.",
+    bio: "Through a collaboration with the Exoneration Project, Blagg secured Lee's release by presenting irrefutable evidence of a coerced confession. The result: Raymond's sentence was reduced to time served, finally setting him free.",
     featured: false
   },
   {
-    name: 'TINO TERRELL',
-    img: terrell,
-    bio: 'Jennifer Blagg secures the release of Tino Terrell after convincing the First District Appellate Court to overturn his conviction. The court finds that Tino Terrell was not guilty beyond a reasonable doubt.',
-    featured: false,
-    link: '/terrell'
-  },
-  {
-    name: 'OMAR MOORE',
-    img: moore,
-    bio: "Blagg wins post-conviction relief after presenting newly discovered evidence of Moore's innocence. After winning Moore a new trial, she convinces the prosecution to drop charges. Moore is released after spending 9 years in prison.",
+    name: 'FRANCE WHITTEN',
+    img: whitten,
+    bio: "After spending over a decade in prison, France Whitten was resentenced to time served after Blagg Law presented new evidence proving he acted in self-defense when he shot the victim.",
     featured: false
-  },
-  {
-    name: 'TERRELL CHAMBERS',
-    img: chambers,
-    bio: "Jennifer Blagg convinces the Cook County State's Attorney to drop all charges against Terrill Chambers after his case is remanded from the Illinois Supreme Court for a Franks Hearing.",
-    featured: false
-  },
- 
+  }, 
   {
     name: 'ANTHONY THOMAS',
     img: thomas,
-    bio: "Jennifer Blagg convinces the Cook County States Attorney to reduce Thomas's sentence by almost 20 years. Blagg was able to obtain an evidentiary hearing for Thomas by presenting evidence of Thomas's innocence.",
+    bio: "Jennifer Blagg's compelling evidence of Thomas's innocence swayed the Cook County State's Attorney, leading to a dramatic reduction in Thomas's sentence – a near 20-year decrease.",
     featured: false
   },
   {
     name: 'TOMMY THOMPSON',
     img: thompson,
-    bio: "Blagg secures the release of Thompson by arguing his 100-year sentence amounted to a de facto life sentence under Miller v. Alabama. Blagg secured an agreement of time served. Thompson was released after spending 25 years in prison.",
-    featured: false
-  },
-  {
-    name: 'DANTE SERVIN',
-    img: servin,
-    bio: "Dante Servin’s trial team (Darren O'Brien, Jennifer Blagg, and Eric Bisby) obtain unprecedented directed verdict in involuntary manslaughter case securing the dismissal of all charges against Servin.",
+    bio: "Blagg successfully challenged Thompson's 100-year sentence, arguing it amounted to a de facto life sentence. This compelling case led to an agreement for Thompson's release after serving 25 years. ",
     featured: false
   },
 
   {
     name: 'CURTIS CROFT',
     img: croft,
-    bio: "Curtis Croft, who was serving a life sentence, was given a sentence of time served based upon Blagg Law’s investigation into his actual innocence.",
+    bio: "Blagg revealed evidence of Croft's innocence, including DNA evidence that proved Croft falsely confessed. Croft made the  decision to accept the CCSAO's offer to reduce his life sentence to time served.",
+    featured: false,
+    link: 'https://www.injusticewatch.org/criminal-courts/appeals-wrongful-convictions/2017/dna-testing-1986-rape-murder-chicago-croft-henderson/'
+  },
+  {
+    name: 'JESUS MORALES',
+    img: morales,
+    bio: "On the brink of a hearing where Blagg Law was prepared to expose police misconduct, the prosecution agreed to reduce Jesus Morales' mandatory life sentence to time served, granting him long-awaited freedom.",
     featured: false
   },
   {
-    name: 'MARRQUIS ISAAC',
-    img: isaac,
-    bio: "Blagg Law secures Marrquis Isaac’s freedom after convincing the Cook County State’s Attorney to vacate his void 23-year sentence. Isaac is released after wrongfully spending 7 years in prison.",
+    name: 'EARL WILSON',
+    img: wilson,
+    bio: "Earl Wilson's life sentence was reduced to time served after in exchange for dropping his TIRC hearing, where he intended to argue his confession was coerced by Chicago detectives with a history of misconduct.",
+    featured: false
+  },
+  {
+    name: 'DARNELL DIXON',
+    img: dixon,
+    bio: "Darnell Dixon's sentence was reduced to time served. Blagg Law's compelling evidence, demonstrating that  notorious Chicago detective coerced a false confession from Dixon, played a crucial role in securing his release.",
+    featured: false
+  },
+  {
+    name: 'TERENCE TAYLOR',
+    img: ttaylor,
+    bio: "Blagg secures a deal to allow Terence Taylor to be resentenced to time served after presenting evidence of actual innocence.",
+    featured: false
+  },
+  {
+    name: 'ESAU ESCOBAR',
+    img: esau,
+    bio: "Blagg argued Escobar's sentence violated the proportionate penalties clause of the constitution.  Escobar was resentenced to time served by a judge who had been haunted by the legislature's mandate that Escobar be sentenced to a de facto file sentence.",
     featured: false
   },
 ]

@@ -13,7 +13,7 @@ const styles = {
     backgroundColor: '#3E485A',
     minHeight: '115px',
     padding: '0 5%',
-    margin: '0 4.55%',
+    margin: '0 4%',
 
   },
   title: {

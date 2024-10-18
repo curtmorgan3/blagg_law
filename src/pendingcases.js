@@ -1,19 +1,10 @@
-import mcintosh from '../static/case_imgs/norman.jpeg';
-import taylor from '../static/case_imgs/taylor.jpg';
-import terrell from '../static/case_imgs/terrell.jpeg';
-import chambers from '../static/case_imgs/chambers.jpg';
-import harris from '../static/case_imgs/harris.jpeg';
-import velez from '../static/case_imgs/velez.jpg';
-import moore from '../static/case_imgs/moore.jpeg';
 import bannister from '../static/case_imgs/bannister.gif';
-import thomas from '../static/case_imgs/thomas.jpeg';
-import servin from '../static/case_imgs/servin.jpg';
 import scaggs from '../static/case_imgs/scaggs.jpeg';
-import nickles from '../static/case_imgs/nickles.jpg';
-import thompson from '../static/case_imgs/thompson.jpg';
-import fletcher from '../static/case_imgs/fletcher.gif';
-import isaac from '../static/case_imgs/isaac.jpeg';
 import villa from '../static/case_imgs/villa.jpeg';
+import meller from '../static/case_imgs/meller.jpeg';
+import garrett from '../static/case_imgs/garrett.jpeg';
+import griggs from '../static/case_imgs/griggs.jpeg';
+
 
 export const pendingcases = [
   {
@@ -23,22 +14,30 @@ export const pendingcases = [
     featured: false,
     link:'/bannister'
   },
-
-
+  {
+    name: 'DANIEL MELLER',
+    img: meller,
+    bio: "Daniel Meller was wrongfully convicted based on the false testimony of an informant. Detectives failed to disclose exculpatory evidence of innocence. Blagg investigates Meller’s innocence.",
+    featured: false,
+  },
+    
+  {
+    name: 'ANTHONY GARRETT',
+    img: garrett,
+    bio: "Blagg fights to secure Anthony Garrett’s release arguing that Area Six detectives including Detective Richard Zuely coerced Garrett to falsely confess to murder he did not commit.",
+    featured:  false,
+  },
+  {
+    name: 'ANDRE GRIGGS',
+    img: griggs,
+    bio: "Notorious Detective Richard Zuely coerced Griggs to falsely confess to a crime he did not commit.",
+    featured:  false,
+  },
   {
     name: 'TRISTAN SCAGGS',
     img: scaggs,
     bio: "Jennifer Blagg files post-conviction petition alleging that police misconduct resulted in the wrongful incarceration of Tristan Scaggs. Blagg presents evidence officers engaged in a pattern of misconduct.",
-    featured: false,
+    featured: true,
     link: '/scaggs'
-  },
-    
- {
-    name: 'ALEXANDER VILLA',
-    img: villa,
-    bio: " Villa was convicted of killing off-duty police officer. Blagg dismantles CPD’s case against Villa by showing that police hid evidence that established Villa's innocence.",
-    featured:  false,
-    link: '/villa'
-
   },
 ]

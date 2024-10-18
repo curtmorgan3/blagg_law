@@ -89,17 +89,11 @@ const Home = () => {
 
         <Services />
 
-        <div className={classes.exonerations}>
-          {featuredCases.map(entry => (
-            <CaseCard key={entry.name} case={entry} />
-          ))}
-        </div>
-
         <Link to='/cases' className={classes.link}>
           <Typography style={{ fontWeight: 'bold', textAlign: 'center'}} variant='h5'>Learn More About Our Cases</Typography>
         </Link>
 
-        <div className={classes.border} style={{marginTop: '2%'}}></div>
+        <div className={classes.border} style={{marginTop: '0%'}}></div>
 
       </div>
 

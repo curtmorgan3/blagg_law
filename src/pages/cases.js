@@ -9,6 +9,7 @@ import { commonStyles } from '../commonStyles';
 import { makeStyles } from '@material-ui/styles';
 import { Typography } from '@material-ui/core';
 import CaseCard from '../components/CaseCard';
+import { exonerations } from '../exonerations';
 import { cases } from '../cases';
 import { pendingcases } from '../pendingcases';
 
@@ -49,8 +50,18 @@ const Cases = () => {
         ))}
       </div>
 
+
       <div className={classes.header}>
-        <Typography variant='h5'>JUSTICE PREVAILS</Typography>
+        <Typography variant='h5'>EXONERATIONS</Typography>
+      </div>
+
+      <div className={classes.cases}>
+        {exonerations.map(entry => (
+          <CaseCard key={entry.name} case={entry} showLink />
+        ))}
+        </div>
+      <div className={classes.header}>
+        <Typography variant='h5'>FREE AT LAST</Typography>
       </div>
 
       <div className={classes.cases}>
@@ -59,13 +70,13 @@ const Cases = () => {
         ))}
         </div>
 
-
-
-
       <div className={classes.border} style={{marginTop: '1%'}}></div>
-      </div>
       <Footer />
     </div>
+ </div>
+
+
+
 
 
   )
