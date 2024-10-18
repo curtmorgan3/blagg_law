@@ -73,7 +73,7 @@ export const exonerations = [
   {
     name: 'DAVID GECHT',
     img: gecht,
-    bio: "Blagg, working in collaboration with the Exoneration Project, secured the reversal of Gecht's conviction. Their compelling evidence exposed the corrupt practices of CPD detective Reynaldo Guevara, who had framed Gecht.",
+    bio: "Blagg, working in collaboration with the Exoneration Project, secured the reversal of Gecht's conviction. A judge granted Gecht a new trial after the team presented evidence of the corrupt practices of CPD detective Reynaldo Guevara, who had framed Gecht.",
     featured: false
   },
     
