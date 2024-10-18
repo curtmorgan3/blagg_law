@@ -112,7 +112,7 @@ export const exonerations = [
   {
     name: 'MARRQUIS ISAAC',
     img: isaac,
-    bio: "Blagg convinced the Cook County State's Attorney to vacate Isaac's void 23-year sentence, recognizing the injustice of his wrongful imprisonment. After spending seven years unjustly incarcerated, Isaac was finally set free.",
+    bio: "Blagg convinced the Cook County State's Attorney to vacate Isaac's void 23-year sentence, recognizing the injustice of his wrongful imprisonment. After spending seven years wrongfully incarcerated, Isaac was finally set free.",
     featured: false
   },
 ]
