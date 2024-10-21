@@ -74,8 +74,8 @@ export const exonerations = [
     name: 'DAVID GECHT',
     img: gecht,
     bio: "Blagg, working with the Exoneration Project, secured the reversal of Gecht's conviction. Gecht recieved a new trial after the team presented evidence of the corrupt practices of Detective Guevara, who framed Gecht.",
-    featured: true,
-    link: '/https://chicago.suntimes.com/crime/2022/5/25/23141876/david-gecht-reynaldo-guevara-cpd-detective-police-false-confession-trial-abuse'
+    featured: false,
+    link: 'https://chicago.suntimes.com/crime/2022/5/25/23141876/david-gecht-reynaldo-guevara-cpd-detective-police-false-confession-trial-abuse'
   },
     
   {
