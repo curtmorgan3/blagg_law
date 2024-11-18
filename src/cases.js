@@ -9,6 +9,7 @@ import dixon from '../static/case_imgs/dixon.jpeg';
 import ttaylor from '../static/case_imgs/terence.png';
 import esau from '../static/case_imgs/esau.png';
 import coleman from '../static/case_imgs/coleman.png';
+import nickles from '../static/case_imgs/nickles.png';
 
 export const cases = [
   {
@@ -77,6 +78,12 @@ export const cases = [
     name: 'MARK COLEMAN',
     img: coleman,
     bio: "After presenting evidence of Coleman's innocence, Blagg secures the release of Mark Coleman by brokering a deal that reduced his life sentence to time served.",
+    featured: false
+  },
+ {
+    name: 'TOMIE NICKLES',
+    img: nickles,
+    bio: "Blagg successfully contested Nickles's mandatory natural life sentence under Illinois's three-strike law, arguing it was unconstitutional. As a result, Nickles's sentence was reduced to time served.",
     featured: false
   },
 ]

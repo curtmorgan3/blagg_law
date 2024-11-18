@@ -5,7 +5,7 @@ import chambers from '../static/case_imgs/chambers.jpg';
 import harris from '../static/case_imgs/harris.jpeg';
 import velez from '../static/case_imgs/velez.jpg';
 import moore from '../static/case_imgs/moore.jpeg';
-import fletcher from '../static/case_imgs/fletcher.gif';
+import fletcher from '../static/case_imgs/fletcher.png';
 import isaac from '../static/case_imgs/isaac.jpeg';
 import gecht from '../static/case_imgs/getch.jpeg';
 import kwil from '../static/case_imgs/kwil.jpeg';
@@ -13,7 +13,7 @@ import jackson from '../static/case_imgs/jackson.jpeg';
 import romero from '../static/case_imgs/romero.jpeg';
 import soto from '../static/case_imgs/soto.jpeg';
 import villa from '../static/case_imgs/villa.png';
-
+import russell from '../static/case_imgs/russell.png';
 
 export const exonerations = [
     {
@@ -114,6 +114,12 @@ export const exonerations = [
     name: 'MARRQUIS ISAAC',
     img: isaac,
     bio: "Blagg convinced the Cook County State's Attorney to vacate Isaac's void 23-year sentence, recognizing the injustice of his wrongful imprisonment. After spending seven years wrongfully incarcerated, Isaac was finally set free.",
+    featured: false
+  },
+  {
+    name: 'TYREESE RUSSELL',
+    img: russell,
+    bio: "Tyresse Russell was granted a new trial after an evidentiary hearing on his actual innocence.  Convinced by the strength of the evidence, the prosecution ultimately dropped all charges. Russell was freed after enduring 11 years of unjust incarceration.",
     featured: false
   },
 ]

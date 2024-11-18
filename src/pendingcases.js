@@ -26,6 +26,7 @@ export const pendingcases = [
     img: garrett,
     bio: "Blagg fights to secure Anthony Garrett’s release arguing that Area Six detectives including Detective Richard Zuely coerced Garrett to falsely confess to murder he did not commit.",
     featured:  false,
+    link:'https://www.audible.com/pd/The-Last-Days-of-Cabrini-Green-Audiobook/B0DLX31RNW'
   },
   {
     name: 'ANDRE GRIGGS',
