@@ -79,7 +79,7 @@ export const cases = [
     {
     name: 'AHMAD POOLE',
     img: poole,
-    bio: "Blagg argued Escobar's sentence violated the proportionate penalties clause of the constitution.  Escobar was resentenced to time served by a judge who had been haunted by the legislature's mandate that Escobar be sentenced to a de facto file sentence.",
+    bio: "Blagg presented evidence that Poole was framed by the CPD, including the notorious Officer Ronald Watts. The CCSAO agreed to reduce his sentence to time served after Blagg filed a post conviction exposing the officer's misconduct."
     featured: false
   },
   {
