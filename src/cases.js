@@ -10,6 +10,8 @@ import ttaylor from '../static/case_imgs/terence.png';
 import esau from '../static/case_imgs/esau.png';
 import coleman from '../static/case_imgs/coleman.png';
 import nickles from '../static/case_imgs/nickles.png';
+import poole from '../static/case_imgs/poole.png';
+
 
 export const cases = [
   {
@@ -71,6 +73,12 @@ export const cases = [
   {
     name: 'ESAU ESCOBAR',
     img: esau,
+    bio: "Blagg argued Escobar's sentence violated the proportionate penalties clause of the constitution.  Escobar was resentenced to time served by a judge who had been haunted by the legislature's mandate that Escobar be sentenced to a de facto file sentence.",
+    featured: false
+  },
+    {
+    name: 'AHMAD POOLE',
+    img: poole,
     bio: "Blagg argued Escobar's sentence violated the proportionate penalties clause of the constitution.  Escobar was resentenced to time served by a judge who had been haunted by the legislature's mandate that Escobar be sentenced to a de facto file sentence.",
     featured: false
   },

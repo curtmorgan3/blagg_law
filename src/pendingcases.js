@@ -1,6 +1,5 @@
 import bannister from '../static/case_imgs/bannister.gif';
 import scaggs from '../static/case_imgs/scaggs.jpeg';
-import villa from '../static/case_imgs/villa.jpeg';
 import meller from '../static/case_imgs/meller.jpeg';
 import garrett from '../static/case_imgs/garrett.jpeg';
 import griggs from '../static/case_imgs/griggs.jpeg';

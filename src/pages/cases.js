@@ -41,17 +41,6 @@ const Cases = () => {
       <div className={classes.border}></div>
       
       <div className={classes.header}>
-        <Typography variant='h5'>JUSTICE PENDING</Typography>
-      </div>
-
-      <div className={classes.cases}>
-        {pendingcases.map(entry => (
-          <CaseCard key={entry.name} case={entry} showLink />
-        ))}
-      </div>
-
-
-      <div className={classes.header}>
         <Typography variant='h5'>EXONERATIONS</Typography>
       </div>
 
