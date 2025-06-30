@@ -79,7 +79,7 @@ export const cases = [
     {
     name: 'AHMAD POOLE',
     img: poole,
-    bio: "Blagg presented evidence that Poole was framed by the CPD, including the notorious Officer Ronald Watts. The CCSAO agreed to reduce his sentence to time served after Blagg filed a post conviction exposing the officer's misconduct."
+    bio: "Blagg presented evidence that Poole was framed by the CPD, including the notorious Officer Ronald Watts. The CCSAO agreed to reduce his sentence to time served after Blagg filed a post conviction exposing the officer's misconduct.",
     featured: false
   },
   {
@@ -93,5 +93,5 @@ export const cases = [
     img: nickles,
     bio: "Blagg successfully contested Nickles's mandatory natural life sentence under Illinois's three-strike law, arguing it was unconstitutional. As a result, Nickles's sentence was reduced to time served.",
     featured: false
-  },
+  }
 ]
